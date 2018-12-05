@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         adapter = CategoryAdapter(this, DataService.categories)
-
         categoryListView.adapter = adapter
     }
 }
